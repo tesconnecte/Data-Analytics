@@ -1,0 +1,25 @@
+@relation fruits
+
+@attribute Conclusion{Safe,Dangerous}
+@attribute Skin{Smooth,Hairy}
+@attribute Colour{Brown,Green,Red}
+@attribute Size{Large,Small}
+@attribute Flesh{Hard,Soft}
+
+@data
+Safe,Hairy,Brown,Large,Hard
+Safe,Hairy,Green,Large,Hard
+Safe,Hairy,Green,Large,Soft
+Safe,Hairy,Red,Small,Hard
+Safe,Smooth,Red,Small,Hard
+Safe,Smooth,Brown,Small,Hard
+Safe,Hairy,Red,Large,Hard
+Safe,Smooth,Brown,Large,Soft
+Safe,Hairy,Red,Small,Soft
+Safe,Smooth,Red,Small,Hard
+Dangerous,Hairy,Green,Small,Hard
+Dangerous,Smooth,Red,Large,Soft
+Dangerous,Hairy,Green,Small,Soft
+Dangerous,Smooth,Green,Small,Hard
+Dangerous,Smooth,Red,Large,Hard
+Dangerous,Smooth,Green,Small,Soft
